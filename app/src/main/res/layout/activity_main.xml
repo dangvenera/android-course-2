@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3E5F5"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="12dp">
+
+        <Button
+            android:id="@+id/btn_calculator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Calculator"
+            android:backgroundTint="#7E57C2"
+            android:textColor="#FFFFFF"
+            android:layout_margin="6dp"
+            android:padding="12dp"
+            android:background="@drawable/rounded_button"/>
+
+        <Button
+            android:id="@+id/btn_player"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MediaPlayer"
+            android:backgroundTint="#7E57C2"
+            android:textColor="#FFFFFF"
+            android:layout_margin="6dp"
+            android:padding="12dp"
+            android:background="@drawable/rounded_button"/>
+
+        <Button
+            android:id="@+id/btn_location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Location"
+            android:backgroundTint="#7E57C2"
+            android:textColor="#FFFFFF"
+            android:layout_margin="6dp"
+            android:padding="12dp"
+            android:background="@drawable/rounded_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_telephony"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Telephony"
+            android:backgroundTint="#7E57C2"
+            android:textColor="#FFFFFF"
+            android:layout_margin="6dp"
+            android:padding="12dp"
+            android:background="@drawable/rounded_button"/>
+
+        <Button
+            android:id="@+id/btn_sockets"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sockets"
+            android:backgroundTint="#7E57C2"
+            android:textColor="#FFFFFF"
+            android:layout_margin="6dp"
+            android:padding="12dp"
+            android:background="@drawable/rounded_button"/>
+
+        <Button
+            android:id="@+id/btn_views"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Views"
+            android:backgroundTint="#7E57C2"
+            android:textColor="#FFFFFF"
+            android:layout_margin="6dp"
+            android:padding="12dp"
+            android:background="@drawable/rounded_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginTop="12dp">
+
+    <Button
+        android:id="@+id/btn_bg_telemetry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BG Telemetry"
+        android:backgroundTint="#7E57C2"
+        android:textColor="#FFFFFF"
+        android:layout_margin="6dp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_drive_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drive Test"
+        android:backgroundTint="#7E57C2"
+        android:textColor="#FFFFFF"
+        android:layout_margin="6dp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_button"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Статус: —"
+            android:textSize="16sp"
+            android:paddingBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/tv_lat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Широта: —"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_lon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Долгота: —"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_alt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Высота: —"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Время: —"
+            android:textSize="16sp"
+            android:paddingBottom="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Start"/>
+
+            <Button
+                android:id="@+id/btn_stop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="Stop"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_show_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Показать локальный лог"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Назад"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_sent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Последняя отправка: —"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
